@@ -1,0 +1,31 @@
+id: highway-path
+type: line
+source: geolonia
+source-layer: transportation
+filter:
+  - all
+  - - ==
+    - $type
+    - LineString
+  - - '!in'
+    - brunnel
+    - bridge
+    - tunnel
+  - - ==
+    - class
+    - path
+layout:
+  line-cap: round
+  line-join: round
+paint:
+  line-color: '#e8e6e3'
+  line-width:
+    base: 3
+    stops:
+      - - 15
+        - 1.5
+      - - 17
+        - 2.5
+  line-dasharray:
+    - 2
+    - 1

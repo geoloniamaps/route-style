@@ -1,0 +1,7 @@
+id: park
+type: fill
+source: geolonia
+source-layer: park
+paint:
+  fill-color: '#e8f0e4'
+  fill-opacity: 0.5

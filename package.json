@@ -1,0 +1,15 @@
+{
+  "name": "route-style",
+  "version": "1.0.0",
+  "description": "経路表示に適した地図スタイル (Map style optimized for route/navigation display)",
+  "main": "style.json",
+  "scripts": {
+    "start": "charites serve style.yml",
+    "build": "charites build style.yml ./docs/style.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@unvt/charites": "^2.0.0"
+  }
+}
